@@ -27,7 +27,7 @@ TEST(Issue200, Test) {
   ASSERT_OK(db->Put(write_options, "1", "b"));
   ASSERT_OK(db->Put(write_options, "2", "c"));
   ASSERT_OK(db->Put(write_options, "3", "d"));
-  ASSERT_OK(db->Put(write_options, "4", "e"));
+  ASSERT_OK(db->Put(write_options, "4", "e"));  ddd
   ASSERT_OK(db->Put(write_options, "5", "f"));
 
   ReadOptions read_options;
